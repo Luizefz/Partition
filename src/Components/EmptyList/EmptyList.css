@@ -1,0 +1,22 @@
+.secEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
+}
+
+.secEmpty h1 {
+    position: absolute;
+    margin: 125px 10px;
+}
+
+.divisor {
+    display: flex;
+    margin: auto;
+    width: 80px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: var(--ternary-color);
+}

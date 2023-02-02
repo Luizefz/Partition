@@ -1,0 +1,26 @@
+.header{ 
+    max-width: 500px;
+    margin: auto;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 26px;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+.header a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
