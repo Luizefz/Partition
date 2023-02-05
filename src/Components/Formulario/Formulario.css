@@ -18,6 +18,8 @@
     font-weight: 500;
     width: 250px;
     padding: 6px 5px;
+    border: 1px solid var(--ternary-color);
+    border-radius: 6px;
 }
 
 .formulario Button {
@@ -28,6 +30,7 @@
 
 .modal {
     background-color: var(--background-color);
+    border-radius: 8px;
 }
 
 .react-responsive-modal-closeButton {
