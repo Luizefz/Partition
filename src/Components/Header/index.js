@@ -9,7 +9,7 @@ const Header = () => {
             <ul>
                 <li>
                     <a href='.'>
-                        <img src='./images/Pie-chart.svg' alt='Logo Partition' />
+                        <img src='./images/Pie-chart.png' alt='Logo Partition' />
                         <h1>Partition</h1>
                     </a>
                 </li>
