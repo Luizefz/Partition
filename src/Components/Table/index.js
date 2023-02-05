@@ -1,9 +1,27 @@
 import React from 'react'
+import TrSocio from '../TrSocio'
 import './Table.css'
 
-const Table = () => {
+const Table = (props) => {
     return (
-        <div>Table</div>
+        <section>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>%</th>
+                    </tr>
+                    {props.socios.map(socio => <TrSocio
+                        key={socio.firstName + socio.lastName}
+                        firstName={socio.firstName}
+                        lastName={socio.lastName}
+                        percent={socio.percent}
+                    />
+                    )}
+                </tbody>
+            </table>
+        </section>
     )
 }
 
