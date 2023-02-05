@@ -1,0 +1,26 @@
+.secTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    height: auto;
+}
+
+.secTable table {
+    background-color: var(--secundary-color);
+    border-radius: 8px;
+    padding: 3px 6px;
+    overflow: hidden;
+}
+
+.secTable tr {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+
+}
+.secTable tr:nth-child(1) {
+    border-bottom: 0.5px solid;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}

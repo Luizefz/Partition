@@ -4,7 +4,7 @@ import './Table.css'
 
 const Table = (props) => {
     return (
-        <section>
+        <section className='secTable'>
             <table>
                 <tbody>
                     <tr>

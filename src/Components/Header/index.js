@@ -3,7 +3,7 @@ import './Header.css'
 import Button from '../Button'
 import { FiPlus } from "react-icons/fi";
 
-const Header = () => {
+const Header = ({ onOpenModal }) => {
     return (
         <header className='header'>
             <ul>
@@ -15,6 +15,7 @@ const Header = () => {
                 </li>
                 <li>
                     <Button
+                        onOpenModal={onOpenModal}
                         icon={<FiPlus size={'1.2rem'} style={{ color: '#FFFFFF' }} />}
                         text={'Add'}
                     />

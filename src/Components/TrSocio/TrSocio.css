@@ -1,0 +1,11 @@
+.tableLine td
+{    
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tableLine td:nth-child(3) {
+    text-align: center;
+}

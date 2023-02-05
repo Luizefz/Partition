@@ -1,0 +1,35 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    padding: 10px;
+}
+
+.formulario div {
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.formulario div input {
+    color: var(--background-color);
+    font-weight: 500;
+    width: 250px;
+    padding: 6px 5px;
+}
+
+.formulario Button {
+    align-self: center;
+    width: 265px;
+    margin-top: 12px;
+}
+
+.modal {
+    background-color: var(--background-color);
+}
+
+.react-responsive-modal-closeButton {
+    fill: aliceblue;
+}
