@@ -9,7 +9,7 @@ const Header = ({ onOpenModal }) => {
             <ul>
                 <li>
                     <a href='.'>
-                        <img src='./images/pie-chart.png' alt='Logo Partition' />
+                        <img src='./images/pie-chart.svg' alt='Logo Partition' />
                         <h1>Partition</h1>
                     </a>
                 </li>
