@@ -6,7 +6,7 @@ const TrSocio = ({ firstName, lastName, percent }) => {
         <tr className='tableLine'>
             <td>{firstName}</td>
             <td>{lastName}</td>
-            <td>{percent}%</td>
+            <td>{`${percent}%`}</td>
         </tr>
 
     )

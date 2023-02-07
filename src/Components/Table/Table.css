@@ -17,7 +17,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
-
+    animation: 0.5s ease-out;
 }
 .secTable tr:nth-child(1) {
     border-bottom: 0.5px solid;

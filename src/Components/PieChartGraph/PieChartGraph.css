@@ -1,0 +1,13 @@
+.chart-container {
+  display: flex;
+  padding: auto 0;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: var;
+}
+
+.chart-container svg {
+  padding: 0px;
+}

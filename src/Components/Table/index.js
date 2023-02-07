@@ -4,6 +4,7 @@ import './Table.css'
 
 const Table = (props) => {
     return (
+
         <section className='secTable'>
             <table>
                 <tbody>
@@ -16,7 +17,7 @@ const Table = (props) => {
                         key={socio.firstName + socio.lastName}
                         firstName={socio.firstName}
                         lastName={socio.lastName}
-                        percent={socio.percent}
+                        percent={socio.value}
                     />
                     )}
                 </tbody>
