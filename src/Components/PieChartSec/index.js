@@ -8,7 +8,9 @@ const PieChartSec = ({ socios }) => {
         <>
             <section className='secEmpty'>
                 {socios.length ? (
-                    <PieChartGraph data={socios} />
+                    <>
+                        <PieChartGraph data={socios} />
+                    </>
                 ) : (
                     <div>
                         <h1>

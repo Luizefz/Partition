@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './PieChartGraph.css'
 import { PieChart } from "react-minimal-pie-chart";
-
+import MapLegend from '../MapLegend';
 
 const PieChartGraph = ({ data }) => {
 
@@ -17,7 +17,6 @@ const PieChartGraph = ({ data }) => {
                 animationEasing="ease-out"
                 center={[50, 50]}
                 data={data}
-                totalValue={100}
                 lengthAngle={360}
                 lineWidth={15}
                 paddingAngle={15}
@@ -25,15 +24,9 @@ const PieChartGraph = ({ data }) => {
                 rounded
                 startAngle={100}
                 viewBoxSize={[100, 100]}
-                label={(data) => data.dataEntry.firstName}
                 labelPosition={positionLabel}
-                labelStyle={{
-                    fontSize: "10px",
-                    fill: "#E7F6F2",
-                    fontWeight: "500",
-                }}
-
             />
+            <MapLegend data={data} />
         </div>
     )
 }

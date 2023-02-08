@@ -1,11 +1,11 @@
 .chart-container {
   display: flex;
+  flex-direction: column;
   padding: auto 0;
-  height: 60%;
+  height: 50vh;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  color: var;
 }
 
 .chart-container svg {
