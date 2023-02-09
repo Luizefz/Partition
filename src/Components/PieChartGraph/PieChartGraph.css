@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: auto 0;
   height: 50vh;
+  max-height: 500px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
