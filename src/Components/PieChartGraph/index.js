@@ -5,10 +5,6 @@ import MapLegend from '../MapLegend';
 
 const PieChartGraph = ({ data }) => {
 
-    let positionLabel = 0;
-
-    (data.length > 1) ? positionLabel = 120 : positionLabel = 0
-
     return (
         <div className="chart-container">
             <PieChart
@@ -17,6 +13,7 @@ const PieChartGraph = ({ data }) => {
                 animationEasing="ease-out"
                 center={[50, 50]}
                 data={data}
+
                 lengthAngle={360}
                 lineWidth={15}
                 paddingAngle={15}
@@ -24,7 +21,6 @@ const PieChartGraph = ({ data }) => {
                 rounded
                 startAngle={100}
                 viewBoxSize={[100, 100]}
-                labelPosition={positionLabel}
             />
             <MapLegend data={data} />
         </div>
